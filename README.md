@@ -1,2 +1,5 @@
-# vagas
-Projeto da 7 Days Of Code | Alura 
+# 7 Days Of Code - Vagas
+
+<h4 align="center">Em Desenvolvimento... </h4>
+
+
