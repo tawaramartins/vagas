@@ -4,6 +4,124 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: 'Inter';
+}
+
+/*====== MENU ======*/
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+/*==== Botaes de Entrar e Cadastrar =====*/
+
+.menu-open {
+    width: 20rem;
+    word-spacing: 2rem;
+    text-align: right;
+}
+
+/*===== SOBRE NOS ========*/
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+}
+
+.section-title {
+    padding: 1rem;
+}
+.section-about-us--desc {
+    text-align: center;
+}
+.section-metricas {
+    display: flex;
+    margin: 3rem;
+}
+
+.section-about-us--item {
+    margin: 1rem;
+}
+
+.section-metricas--name {
+    line-height: 2.6rem;
 }
 
 
+/*==== VAGAS =====*/
+.section-vagas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.section-title {
+    padding: 1rem;
+}
+
+.section-team {
+    width: 100%;
+    margin: 2rem;
+}
+
+.section-area {
+    margin: 1rem;
+}
+
+.vaga-title {
+    padding: 2rem;
+    margin: 1rem;
+    width: 150%;
+}
+
+/*=== SECTION COLABORADORES ======*/
+
+.section-colaboradores,
+.section-new-oportunidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    text-align: center;
+}
+
+.section-title {
+    padding: 1rem;
+}
+
+.section-name {
+    line-height: 2.6rem;
+}
+/*====SECTION FOOTER========*/
+
+.section-title {
+    padding: 1rem;
+    line-height: 2.6rem;
+}
+
+.section-form {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
