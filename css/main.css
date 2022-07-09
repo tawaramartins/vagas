@@ -1,3 +1,6 @@
+/*===== FONTE ======*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 /*======  RESET  =======*/
 * {
     box-sizing: border-box;
@@ -7,6 +10,12 @@
     font-family: 'Inter';
 }
 
+:root {
+    --text-color: #667085;
+    --btn-bg: #8E2424;
+    --text-destaque: #8E2424;
+    --text-destaque-2: #101828;
+}
 /*====== MENU ======*/
 
 .container {
@@ -27,6 +36,20 @@
     align-items: center;
     gap: 2rem;
     list-style: none;
+}
+
+.menu-style {
+    color: var(--text-color);
+}
+
+/*====Estilo do botao de cadastrar======*/
+.cadastro {
+    padding: 0.8rem;
+}
+.btn-style {
+    color: #FFFFFF;
+    background-color: var(--btn-bg);
+    border-radius: 10px;
 }
 
 /*==== Botaes de Entrar e Cadastrar =====*/
@@ -62,38 +85,87 @@
 }
 
 .section-metricas--name {
-    line-height: 2.6rem;
+    display: flex;
+    flex-direction: column;
 }
 
+/*==== ESTILO DA SECAO SOBRE NOS======*/
+.section-about-us {
+    color: var(--text-destaque);
+    font-weight: bold;
+}
+.section-about-us--desc {
+    color: var(--text-color);
+    line-height: 1.6rem;
+}
 
+/*====ESTILO DAS METRICAS====*/
+.section-number {
+    color: var(--text-destaque);
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.section-metricas--name {
+    color: var(--text-destaque-2);
+    line-height: 2.6rem;
+    font-weight: bold;
+}
+.section-desc {
+    color: var(--text-color);
+}
 /*==== VAGAS =====*/
 .section-vagas {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin: 5rem;
-}
-
-.section-title {
-    padding: 1rem;
 }
 
 .section-team {
-    width: 100%;
-    margin: 2rem;
+    width: 80%;
+    margin: 3rem;
 }
 
-.section-area {
-    margin: 1rem;
+/*=====ESTILO DE VAGAS=====*/
+.section-alert {
+    background-color: rgb(245, 212, 212);
+    color: var(--text-destaque);
+    padding: 0.8rem;
+    font-weight: bold;
+    border-radius: 20px;
 }
 
-.vaga-title {
+.vagas-style {
+    color: var(--text-destaque-2);
+}
+
+.vagas-style--desc {
+    color: var(--text-color);
+}
+.section-vaga {
+    border: 1px solid #D0D5DD;
+    border-radius: 10px;
     padding: 2rem;
     margin: 1rem;
     width: 150%;
+
+}
+.section-title,
+.title-vaga {
+    color: var(--text-destaque-2);
+    font-weight: bold;
 }
 
+.vaga-desc {
+    display: flex;
+    gap: 2%;
+    line-height: 3.6rem;
+}
+
+.desc {
+    color: var(--text-color);
+}
 /*=== SECTION COLABORADORES ======*/
 
 .section-colaboradores,
@@ -112,6 +184,29 @@
 
 .section-name {
     line-height: 2.6rem;
+}
+
+/*===== COLABORADORES ==========*/
+.colaboradores-style {
+    background-color: rgb(250, 233, 233);
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+/*== ESTILO OPORTUNIDADES=======*/
+.area-style {    
+    color: var(--text-destaque-2);
+}
+.title-style {
+    color: var(--text-destaque-2);
+    border: 1px solid #D0D5DD;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.title-style--item {
+    color: var(--text-color);
+    font-weight: normal;
 }
 /*====SECTION FOOTER========*/
 
