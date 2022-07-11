@@ -1,5 +1,15 @@
-# 7 Days Of Code - Vagas
+<h1 align="center">Vagas</h1>
 
-<h4 align="center">Em Desenvolvimento... </h4>
+<p align="center">
+ <a href="objetivo">Objetivo</a> •
+ <a href="screenshot">Screenshot</a> •
+ <a href="links">Link</a> •
+ <a href="tecnologias">Tecnologias</a> • 
+ <a href="autor">Autor</a>
+</p>
+
+<h4 align="center"> 
+	🚧 Em desenvolvimento 🚧
+</h4>
 
 
