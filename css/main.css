@@ -11,10 +11,10 @@
 }
 
 :root {
-    --text-color: #667085;
+    --text-color-gray: #667085;
     --btn-bg: #8E2424;
-    --text-destaque: #8E2424;
-    --text-destaque-2: #101828;
+    --text-color-red: #8E2424;
+    --text-color-darkblue: #101828;
 }
 /*====== MENU ======*/
 
@@ -39,11 +39,11 @@
 }
 
 .menu-style {
-    color: var(--text-color);
+    color: var(--text-color-gray);
 }
 
-/*====Estilo do botao de cadastrar======*/
-.cadastro {
+/*==== Estilo do botao de cadastrar ======*/
+.registration {
     padding: 0.8rem;
 }
 .btn-style {
@@ -91,31 +91,35 @@
 
 /*==== ESTILO DA SECAO SOBRE NOS======*/
 .section-about-us {
-    color: var(--text-destaque);
+    color: var(--text-color-red);
     font-weight: bold;
 }
 .section-about-us--desc {
-    color: var(--text-color);
+    color: var(--text-color-gray);
     line-height: 1.6rem;
+}
+.section-about-us--title {
+    color: var(--text-color-darkblue);
+    margin: 1rem;
 }
 
 /*====ESTILO DAS METRICAS====*/
 .section-number {
-    color: var(--text-destaque);
+    color: var(--text-color-red);
     font-size: 3em;
     font-weight: bold;
 }
 
 .section-metricas--name {
-    color: var(--text-destaque-2);
+    color: var(--text-color-darkblue);
     line-height: 2.6rem;
     font-weight: bold;
 }
 .section-desc {
-    color: var(--text-color);
+    color: var(--text-color-gray);
 }
 /*==== VAGAS =====*/
-.section-vagas {
+.section-talents {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -128,48 +132,50 @@
 }
 
 /*=====ESTILO DE VAGAS=====*/
-.section-alert {
-    background-color: rgb(245, 212, 212);
-    color: var(--text-destaque);
-    padding: 0.8rem;
+
+.section-talents--alert {
+    background-color: rgb(247, 211, 211);
+    padding: 0.6rem;
+    border-radius: 30px;
+    color: var(--text-color-red);
     font-weight: bold;
-    border-radius: 20px;
 }
 
-.vagas-style {
-    color: var(--text-destaque-2);
+.talents-style {
+    color: var(--text-color-darkblue);
 }
 
-.vagas-style--desc {
-    color: var(--text-color);
+.talents-style--desc {
+    color: var(--text-color-gray);
 }
-.section-vaga {
-    border: 1px solid #D0D5DD;
-    border-radius: 10px;
-    padding: 2rem;
-    margin: 1rem;
-    width: 150%;
 
-}
 .section-title,
-.title-vaga {
-    color: var(--text-destaque-2);
+.title-talents {
+    color: var(--text-color-darkblue);
     font-weight: bold;
 }
 
-.vaga-desc {
+.section-talents--area {
+    border: 1px solid #D0D5DD;
+    padding: 2.6rem;
+    margin: 1rem;
+    border-radius: 10px;
+    width: 130%;
+
+}
+.talents-desc {
     display: flex;
-    gap: 2%;
-    line-height: 3.6rem;
+    gap: 1rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    color: var(--text-color-gray);
 }
 
-.desc {
-    color: var(--text-color);
-}
+
 /*=== SECTION COLABORADORES ======*/
 
-.section-colaboradores,
-.section-new-oportunidades {
+.section-collaborators,
+.section-new-collaborators {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,26 +193,37 @@
 }
 
 /*===== COLABORADORES ==========*/
-.colaboradores-style {
+.collaborators-style {
     background-color: rgb(250, 233, 233);
     padding: 3rem;
     border-radius: 10px;
 }
 
-/*== ESTILO OPORTUNIDADES=======*/
+/*== ESTILO COLABORADORES =======*/
+.section-desc--collaboarators {
+    color: var(--text-color-red);
+    font-weight: bold;
+}
 .area-style {    
-    color: var(--text-destaque-2);
+    color: var(--text-color-darkblue);
 }
 .title-style {
-    color: var(--text-destaque-2);
+    color: var(--text-color-darkblue);
     border: 1px solid #D0D5DD;
     border-radius: 10px;
     font-weight: bold;
-
+}
+.section-name {
+    color: var(--text-color-darkblue);
+    font-weight: bold;
 }
 .title-style--item {
     color: var(--text-color);
     font-weight: normal;
+}
+
+.section-occupation {
+    color: var(--text-color-gray);
 }
 /*====SECTION FOOTER========*/
 
@@ -219,4 +236,34 @@
     display: flex;
     gap: 1rem;
     padding: 1rem;
+}
+
+/*==== ESTILO DO FOOTER =======*/
+.section-new-collaborators {
+    background-color: #f2f2f3;
+    margin: 0;
+    padding: 4rem;
+}
+
+.section-footer--desc {
+    color: var(--text-color-gray);
+}
+.section-form--email {
+    padding: 0.7rem;
+    border: 1px solid #D0D5DD;
+    border-radius: 7px;
+    width: 300px;
+}
+.section-form--btn {
+    background-color: var(--btn-bg);
+    border: 0;
+    border-radius: 7px;
+    padding: 0.7rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.section-copyright {
+    color: var(--text-color-gray);
+    margin: 1rem;
 }
